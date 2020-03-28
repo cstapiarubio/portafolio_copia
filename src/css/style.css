@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #503c44;
+}
+#container{
+    height: 100%;
+}
+
+#cabecera, #footer{
+    background-color: #f7f7f7;
+}
+
+#cabecera h1, #cabecera h2, #img_me, #parrafo{
+    display:inline-block;
+    margin-left: 15px;
+}
+
+#cabecera h2{
+   padding-left: 650px;
+   width: 500px;
+}
+
+#img_me img{
+    width:500px;
+    height: 265px;
+    margin-top: 20px;
+}
+
+#about_me img{
+    border: 5px solid #c0c0c0;
+}
+
+#parrafo{
+    width:780px;
+    margin-left:80px;
+    background-color: #f2edf2; 
+}
+
+#about_me #parrafo h3{
+    color: white;
+    background-color: gray;
+}
+
+#jobs div{
+    display:inline-block;
+    width: 30%;
+    margin:10px;
+}
+
+#jobs ul li{
+    display:inline-block;
+    margin:10px;
+}
+
+#jobs ul li img{
+    width: 55px;
+    height: 55px;
+}
+
+#jobs img{
+    width: 100%;
+}
+
+#job_1, #job_2, #job_3{
+    /*padding-left: 15px;*/
+    background-color: #f2edf2;
+}
+
+#redes_sociales ul li img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#redes_sociales ul li{
+    display:inline-block;
+    padding:5px;
+}
+
+#footer{
+  text-align: center;
+}
+
+#jobs button{
+    margin-left: 150px;
+    background-color: teal;
+    border-radius: 15%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  #jobs h3, #jobs h4{
+      background-color: #878593;
+      color: white;
+      padding: 10px;
+  }
+
+  #jobs p{
+      padding: 10px;
+  }
+
+
+
+
+
